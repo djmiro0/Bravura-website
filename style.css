@@ -334,7 +334,6 @@ footer p {
 
   .menu {
     display: none; /* initially hide the menu */
-    margin: 100px;
   }
 
   .menu-open .menu {
