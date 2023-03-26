@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --primary: #2e2d29;
+  --secondary: #f8f0e2;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+}
+
+.header-container {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+header nav {
+  margin-right: 50px;
+}
+
+.bravura {
+  padding-left: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(+10);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(-20px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(+10);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(-20px);
+  }
+}
+
+.bravura:hover {
+  text-shadow: var(--secondary) 1px 0 10px;
+}
+
+.menu-toggle {
+  display: none;
+  border: none;
+  margin-right: 50px;
+}
+
+#img {
+  margin-left: 25px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/Assets/BRAVURA-modified.png);
+  padding-left: 50px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 550;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.6em;
+  color: white;
+  font-size: 15px;
+}
+
+header a:hover {
+  color: rgb(108, 108, 108);
+}
+
+header a:hover {
+  color: rgb(108, 108, 108);
+}
+
+#contact {
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+#contact:hover {
+  background-color: white;
+  color: var(--primary);
+}
+
+/* MAIN */
+
+main {
+  height: fit-content;
+  display: block;
+}
+
+.section-one {
+  background-image: url(/Assets/darkened.jpg);
+  background-position: bottom;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-one-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-one a {
+  font-style: none;
+  text-decoration: none;
+}
+
+.section-one-div:hover {
+  background-color: white;
+  color: rgb(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.section-one-div {
+  color: white;
+  border: 2px solid white;
+  padding: 20px;
+  z-index: 3;
+}
+
+/* section two */
+
+.section-two {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.section-two h2 {
+  color: var(--primary);
+  font-weight: 200;
+  text-align: center;
+  font-size: 32px;
+}
+
+.section-two article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-two-div {
+  margin: 30px;
+  margin-top: 100px;
+  height: 200px;
+  width: 300px;
+  background-image: url(/Assets/carpenter-g0c372e60c_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* section three */
+
+.section-three {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-three h2 {
+  color: var(--primary);
+  font-weight: 200;
+  text-align: center;
+  font-size: 38px;
+}
+.section-three-p {
+  text-align: center;
+  width: 50%;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.section-three article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.section-three article div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.section-three article div h3 {
+  margin: 20px 0;
+  margin-top: 40px;
+  align-self: flex-start;
+}
+
+.section-three article p {
+  width: 450px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.section-three img {
+  height: 500px;
+  width: 450px;
+}
+
+/* section four */
+.section-four {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 600;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary);
+  background-image: url(/Assets/darkened.jpg);
+}
+
+/* section five */
+.section-five {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-five p {
+  width: 50%;
+  letter-spacing: 1px;
+  margin: 50px 0px;
+  text-align: justify;
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+  height: 200px;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 20px;
+}
+
+.social-media i {
+  display: inline-block;
+  color: var(--secondary);
+  font-size: 30px;
+  padding: 10px;
+  font-style: none;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1260px) {
+  #contact {
+    border: none;
+    padding: 0;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  header {
+    height: 100px;
+  }
+
+  header a {
+    font-size: 17px;
+  }
+  header a:active {
+    color: rgb(84, 84, 84);
+  }
+
+  header a:focus {
+    color: red;
+    text-decoration: none;
+  }
+  #contact {
+    border: none;
+    padding: 0;
+  }
+  .bravura {
+    display: none;
+  }
+  .menu-toggle {
+    color: white;
+    display: block;
+    background-color: black;
+    padding-left: 80px;
+  }
+
+  .menu {
+    display: none; /* initially hide the menu */
+    margin: 100px;
+  }
+
+  .menu-open .menu {
+    display: flex;
+    flex-wrap: wrap; /* show the menu when the .menu-open class is added to the menu */
+  }
+}
