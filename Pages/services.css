@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  --primary: #2e2d29;
+  font-family: "Montserrat", sans-serif;
+  --primary: #1f1f1f;
   --secondary: #f8f0e2;
 }
-
 /* HEADER */
 
 header {
