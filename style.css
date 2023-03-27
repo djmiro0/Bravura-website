@@ -97,10 +97,6 @@ header a:hover {
   color: rgb(108, 108, 108);
 }
 
-header a:hover {
-  color: rgb(108, 108, 108);
-}
-
 #contact {
   border: 2px solid white;
   padding: 10px 20px;
@@ -108,6 +104,10 @@ header a:hover {
 #contact:hover {
   background-color: white;
   color: var(--primary);
+}
+
+.menu {
+  margin: 50px !important;
 }
 
 /* MAIN */
@@ -332,6 +332,7 @@ footer p {
 
   .menu {
     display: none; /* initially hide the menu */
+    margin: 0;
   }
 
   .menu-open .menu {
@@ -350,6 +351,16 @@ footer p {
 
   .section-three-div-one {
     width: 300px;
+  }
+
+  .section-three-div-one img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section-three-div-two img {
+    width: 300px;
+    height: 300px;
   }
 
   .section-three article p {

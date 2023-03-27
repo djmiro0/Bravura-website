@@ -10,6 +10,9 @@
   --secondary: #f8f0e2;
 }
 /* HEADER */
+.menu {
+  margin: 50px !important;
+}
 
 header {
   display: flex;
@@ -285,5 +288,41 @@ footer p {
   .menu-open .menu {
     display: flex;
     flex-wrap: wrap; /* show the menu when the .menu-open class is added to the menu */
+  }
+
+  .section-one {
+    height: 200px;
+    background-position: top;
+  }
+
+  .section-one-div {
+    font-size: 12px;
+  }
+
+  .section-three-div-one {
+    width: 300px;
+  }
+
+  .section-three-div-one img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section-three-div-two img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section-three article p {
+    width: 300px;
+  }
+
+  .section-four {
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .section-five p {
+    width: 80%;
   }
 }
