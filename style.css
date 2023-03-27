@@ -341,6 +341,7 @@ footer p {
 
   .section-one {
     height: 200px;
+    background-position: top;
   }
 
   .section-one-div {
