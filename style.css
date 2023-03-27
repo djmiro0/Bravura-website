@@ -340,4 +340,21 @@ footer p {
     display: flex;
     flex-wrap: wrap; /* show the menu when the .menu-open class is added to the menu */
   }
+
+  .section-three-div-one {
+    width: 300px;
+  }
+
+  .section-three article p {
+    width: 300px;
+  }
+
+  .section-four {
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .section-five p {
+    width: 80%;
+  }
 }
