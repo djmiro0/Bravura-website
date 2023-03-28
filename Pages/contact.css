@@ -195,7 +195,6 @@ footer p {
   }
 
   header a:focus {
-    color: red;
     text-decoration: none;
   }
   #contact {

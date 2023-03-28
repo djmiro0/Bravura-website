@@ -199,7 +199,6 @@ footer p {
   }
 
   header a:focus {
-    color: red;
     text-decoration: none;
   }
   #contact {
@@ -224,5 +223,9 @@ footer p {
   .menu-open .menu {
     display: flex;
     flex-wrap: wrap; /* show the menu when the .menu-open class is added to the menu */
+  }
+
+  main {
+    margin: 10px;
   }
 }
